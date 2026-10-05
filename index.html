@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> mon projet B.A.S </title>
+    <!-- Icônes FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Feuille de style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==========================================
+         1. HEADER / NAVIGATION
+    =========================================== -->
+    <header class="header">
+        <div class="container navbar">
+            <!-- Logo B.A.S -->
+            <a href="#" class="logo">
+                <div class="logo-box">
+                    <span class="logo-title">B.A.S</span>
+                    <span class="logo-sub">Bricolage Apprentissage Service</span>
+                </div>
+            </a>
+
+            <!-- Menu de navigation -->
+            <nav class="nav-menu">
+                <a href="#accueil" class="nav-link">Accueil</a>
+                <a href="#apropos" class="nav-link">À propos</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#realisations" class="nav-link">Réalisations</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <!-- Bouton d'action Devis -->
+            <a href="#contact" class="btn btn-primary btn-header">Demander un devis</a>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         2. HERO SECTION
+    =========================================== -->
+    <section id="accueil" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="badge-hero">Artisanat & Menuiserie de Précision</span>
+            <h1 class="hero-title">Votre projet, notre savoir-faire</h1>
+            <p class="hero-subtitle">
+                B.A.S est votre partenaire de confiance pour tous vos travaux de menuiserie bois, création de mobilier
+                sur mesure (lits, fauteuils, armoires), aménagement intérieur et formation professionnelle.
+            </p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">Découvrir nos services</a>
+                <a href="#contact" class="btn btn-secondary">Demander un devis</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         3. À PROPOS
+    =========================================== -->
+    <section id="apropos" class="section apropos">
+        <div class="container grid-2">
+            <div class="apropos-img">
+                <img src="img/menuisier.webp" alt="Atelier B.A.S" class="img-rounded">
+            </div>
+            <div class="apropos-text">
+                <span class="section-subtitle">À propos de nous</span>
+                <h2 class="section-title">L'Art du Bois, la Rigueur du Bâtiment & la Transmission</h2>
+                <p>
+                    <strong>B.A.S (Bricolage Apprentissage Service)</strong> est une entreprise dédiée à l'excellence
+                    artisanale. Nous combinons tradition et modernité pour concevoir des ouvrages en bois solides,
+                    élégants et durables.
+                </p>
+                <p>
+                    Que ce soit pour la confection de mobilier raffiné (fauteuils, lits, bureaux, armoires), la
+                    rénovation de structures ou l'apprentissage des métiers du bois, nous garantissons un engagement
+                    sans faille vers la qualité.
+                </p>
+                <div class="apropos-features">
+                    <div class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Conception 100% sur mesure</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Bois sélectionnés & finitions soignées</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Formation & apprentissage pratiques</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         4. SERVICES
+    =========================================== -->
+    <section id="services" class="section services bg-light">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-subtitle">Nos prestations</span>
+                <h2 class="section-title">Des solutions globales en menuiserie</h2>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-couch"></i></div>
+                    <h3>Meubles sur mesure</h3>
+                    <p>Création personnalisée de mobilier d'exception adapté à vos espaces de vie et de travail.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-door-closed"></i></div>
+                    <h3>Portes & Fenêtres</h3>
+                    <p>Fabrication et pose de portes d'entrée, portes intérieures et fenêtres robustes en bois.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-bed"></i></div>
+                    <h3>Armoires, Placards, Fauteuils & Lits</h3>
+                    <p>Agencement de chambres et salons : lits design, fauteuils confortables, armoires et dressings
+                        intégrés.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-table"></i></div>
+                    <h3>Tables & Bureaux</h3>
+                    <p>Fabrication de tables à manger, tables basses et bureaux professionnels en bois massif ou
+                        composite.</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-house-chimney-window"></i></div>
+                    <h3>Aménagement intérieur</h3>
+                    <p>Revêtement mural, séparation de pièces, bardages et optimisation d'espace intérieur.</p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-hammer"></i></div>
+                    <h3>Réparation & Rénovation</h3>
+                    <p>Restauration de meubles endommagés, rénovation de boiseries et petits travaux de bricolage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         5. NOS RÉALISATIONS
+    =========================================== -->
+    <section id="realisations" class="section realisations">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-subtitle">Galerie</span>
+                <h2 class="section-title">Nos Dernières Réalisations</h2>
+            </div>
+
+            <!-- Catégories de filtres -->
+            <div class="realisations-categories">
+                <span class="filter-btn active">Tout</span>
+                <span class="filter-btn">Meubles</span>
+                <span class="filter-btn">Portes</span>
+                <span class="filter-btn">Armoires</span>
+                <span class="filter-btn">Fauteuil & Lit</span>
+                <span class="filter-btn">Décoration</span>
+                <span class="filter-btn">Autres</span>
+            </div>
+
+            <!-- Grille d'images -->
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=600&q=80"
+                        alt="Fauteuil en bois" class="img-rounded">
+                    <div class="gallery-overlay">
+                        <h4>Fauteuil & Salon Bois</h4>
+                        <p>Fauteuil , lit</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=600&q=80"
+                        alt="Lit sur mesure" class="img-rounded">
+                    <div class="gallery-overlay">
+                        <h4>Lit Massif Design</h4>
+                        <p>Fauteuil , lit</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=600&q=80"
+                        alt="Armoire et dressing" class="img-rounded">
+                    <div class="gallery-overlay">
+                        <h4>Armoire & Placard Encastré</h4>
+                        <p>Armoires</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80"
+                        alt="Porte en bois" class="img-rounded">
+                    <div class="gallery-overlay">
+                        <h4>Porte d'entrée en Bois</h4>
+                        <p>Portes</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=600&q=80"
+                        alt="Table à manger" class="img-rounded">
+                    <div class="gallery-overlay">
+                        <h4>Table à manger & Chaises</h4>
+                        <p>Meubles</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=600&q=80"
+                        alt="Habillage bois décoratif" class="img-rounded">
+                    <div class="gallery-overlay">
+                        <h4>Décoration & Mural Bois</h4>
+                        <p>Décoration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         6. POURQUOI NOUS CHOISIR ?
+    =========================================== -->
+    <section class="section pourquoi bg-light">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-subtitle">Nos Engagements</span>
+                <h2 class="section-title">Pourquoi Choisir B.A.S ?</h2>
+            </div>
+
+            <div class="avantages-grid">
+                <div class="avantage-card">
+                    <div class="avantage-icon"><i class="fa-solid fa-ruler-combined"></i></div>
+                    <h3>Travail sur mesure</h3>
+                    <p>Chaque pièce est pensée et réalisée selon vos préférences, dimensions exactes et contraintes
+                        d'espace.</p>
+                </div>
+
+                <div class="avantage-card">
+                    <div class="avantage-icon"><i class="fa-solid fa-award"></i></div>
+                    <h3>Qualité & Finition</h3>
+                    <p>Un contrôle rigoureux de la matière première et un souci minutieux du détail pour une durabilité
+                        maximale.</p>
+                </div>
+
+                <div class="avantage-card">
+                    <div class="avantage-icon"><i class="fa-solid fa-clock"></i></div>
+                    <h3>Respect des délais</h3>
+                    <p>Nous nous engageons fermement à livrer vos commandes et achever vos chantiers aux dates
+                        convenues.</p>
+                </div>
+
+                <div class="avantage-card">
+                    <div class="avantage-icon"><i class="fa-solid fa-tags"></i></div>
+                    <h3>Prix adaptés</h3>
+                    <p>Une tarification juste, claire et transparente pour vous offrir le meilleur rapport qualité/prix.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         7. PROCESSUS DE TRAVAIL
+    =========================================== -->
+    <section class="section processus">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-subtitle">Notre Étape par Étape</span>
+                <h2 class="section-title">Comment Nous Travaillons</h2>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <h4>Prise de contact</h4>
+                    <p>Échange sur vos besoins, vos idées et vos préférences esthétiques.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <h4>Étude du projet</h4>
+                    <p>Prise de mesures, choix des matériaux et conception sur mesure.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <h4>Devis</h4>
+                    <p>Proposition d'un devis détaillé et ajusté à votre budget.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">04</div>
+                    <h4>Fabrication</h4>
+                    <p>Façonnage, assemblage et finition dans notre atelier d'artisanat.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">05</div>
+                    <h4>Livraison & Installation</h4>
+                    <p>Pose soignée à domicile ou sur le chantier par notre équipe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         8. AVIS CLIENTS
+    =========================================== -->
+    <section class="section avis bg-light">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-subtitle">Témoignages</span>
+                <h2 class="section-title">Ce que disent nos clients</h2>
+            </div>
+
+            <div class="avis-grid">
+                <div class="avis-card">
+                    <div class="stars">★★★★★</div>
+                    <p>« J'ai commandé un lit sur mesure et des armoires pour ma villa. La finition est impeccable et le
+                        bois est d'une grande solidité ! »</p>
+                    <div class="client-name">— M. Kassi</div>
+                </div>
+
+                <div class="avis-card">
+                    <div class="stars">★★★★★</div>
+                    <p>« La fabrication de nos fauteuils et de notre table de bureau s'est très bien déroulée. Respect
+                        des délais irréprochable. »</p>
+                    <div class="client-name">— Mme. Diallo</div>
+                </div>
+
+                <div class="avis-card">
+                    <div class="stars">★★★★★</div>
+                    <p>« L'équipe de B.A.S est très professionnelle. Leur service d'apprentissage forme de véritables
+                        passionnés du bois. Bravo ! »</p>
+                    <div class="client-name">— M. Kouamé</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         9. CONTACT & FORMULAIRE
+    =========================================== -->
+    <section id="contact" class="section contact">
+        <div class="container grid-2">
+
+            <!-- Informations de contact -->
+            <div class="contact-info">
+                <span class="section-subtitle">Parlons de votre projet</span>
+                <h2 class="section-title">Contactez B.A.S</h2>
+                <p>Que ce soit pour une fabrication personnalisée, une rénovation ou une formation, nous sommes à votre
+                    écoute.</p>
+
+                <div class="info-items">
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+225 07 00 00 00 00</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>+225 05 00 00 00 00</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@bas-menuiserie.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Adresse</h4>
+                            <p>Atelier B.A.S, Zone Artisanale, Abidjan</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-clock"></i>
+                        <div>
+                            <h4>Horaires d'ouverture</h4>
+                            <p>Lundi - Samedi : 08h00 - 18h00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulaire -->
+            <div class="contact-form-card">
+                <form class="contact-form" action="#" method="POST"
+                    onsubmit="event.preventDefault(); alert('Votre demande a bien été envoyée à B.A.S !');">
+                    <h3>Demande de devis gratuit</h3>
+
+                    <div class="form-group">
+                        <label for="nom">Nom complet</label>
+                        <input type="text" id="nom" placeholder="Votre nom" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tel">Téléphone</label>
+                        <input type="tel" id="tel" placeholder="Votre numéro de téléphone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Adresse Email</label>
+                        <input type="email" id="email" placeholder="Votre email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="projet">Type de projet</label>
+                        <select id="projet" required>
+                            <option value="" disabled selected>Choisissez une option</option>
+                            <option value="meuble">Meubles sur mesure</option>
+                            <option value="porte">Portes & Fenêtres</option>
+                            <option value="armoire">Armoires, Placards, Fauteuil & Lit</option>
+                            <option value="tables">Tables & Bureaux</option>
+                            <option value="amenagement">Aménagement intérieur</option>
+                            <option value="renovation">Réparation & Rénovation</option>
+                            <option value="formation">Formation / Apprentissage</option>
+                            <option value="autre">Autre projet</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Description du projet</label>
+                        <textarea id="message" rows="4"
+                            placeholder="Précisez votre demande (dimensions, type de bois, style...)"
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">Envoyer ma demande</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==========================================
+         10. FOOTER
+    =========================================== -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <div class="logo-box footer-logo">
+                    <span class="logo-title">B.A.S</span>
+                    <span class="logo-sub">Bricolage Apprentissage Service</span>
+                </div>
+                <p>Entreprise spécialisée dans la menuiserie bois, la fabrication de meubles sur mesure, la rénovation
+                    et la formation aux métiers du bâtiment et de l'artisanat.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#realisations">Réalisations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Nos Services</h4>
+                <ul>
+                    <li><a href="#services">Meubles sur mesure</a></li>
+                    <li><a href="#services">Portes & Fenêtres</a></li>
+                    <li><a href="#services">Armoires, Fauteuils & Lits</a></li>
+                    <li><a href="#services">Aménagement intérieur</a></li>
+                    <li><a href="#services">Formation Menuiserie</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Suivez B.A.S</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 B.A.S – Bricolage Apprentissage Service. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
